@@ -1,0 +1,27 @@
+.div-insta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.insta {
+    display: grid;
+    align-items: center;
+    grid-template-rows: repeat(3, minmax(20px, auto));
+    gap : 10px;
+    grid-auto-flow: column dense;
+    margin: 10px;
+}
+.insta-img a {
+    width: 100%;
+    height: 100%;
+}
+
+.insta-img img {
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s;
+}
+.insta-img:hover {
+    filter:contrast(70%) brightness(120%);
+    transition: all 0.2s;
+}
