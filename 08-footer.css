@@ -110,7 +110,6 @@ footer {
     .info ul {
         width: auto;
     }
-
     #footernavmenu {
         padding: 0 15px;
         /* text-align: center; */
@@ -120,7 +119,6 @@ footer {
         padding-left: 10px;
         content: "";
         color: white;
-
     }
 
     #footeraddress {
