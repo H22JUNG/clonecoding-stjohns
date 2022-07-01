@@ -45,3 +45,37 @@
 .popup_layer_footer .popup_layer_close {
     background-color:#051E3E;
 }
+#popup_layer_1 {
+    top:130px;
+    left:110px;
+}
+#popup_layer_2 {
+    top:130px;
+    left:620px;
+}
+#popup_layer_3 {
+    top:220px;
+    left:160px;
+}
+#popup_layer_4 {
+    top:220px;
+    left:670px;
+}
+@media (max-width:1024px) {
+    #popup_layer_1 {
+        top:80px;
+        left: 12px;
+    }
+    #popup_layer_2 {
+        top:80px;
+        left: 12px;
+    }
+    #popup_layer_3 {
+        top:80px;
+        left: 12px;
+    }
+    #popup_layer_4 {
+        top:80px;
+        left: 12px;
+    }
+}

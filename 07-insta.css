@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+    /* padding-left: 60px; */
 }
 .insta {
     display: grid;
     align-items: center;
+    align-self: flex-start;
     grid-template-rows: repeat(3, minmax(20px, auto));
     gap : 10px;
     grid-auto-flow: column dense;
@@ -24,4 +26,10 @@
 .insta-img:hover {
     filter:contrast(70%) brightness(120%);
     transition: all 0.2s;
+}
+
+@media (max-width:1024px) {
+    .div-insta {
+    padding-left : 0;
+    }
 }

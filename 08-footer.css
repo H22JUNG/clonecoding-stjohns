@@ -43,7 +43,7 @@ footer {
 }
 
 #footernavmenu li {
-    display: flex;
+    /* display: flex; */
     padding-right: 15px;
     float: left;
     letter-spacing: 1px;
@@ -74,12 +74,14 @@ footer {
 
 .footersns {
     flex: 1;
+    border-left: 1px solid white;
+    padding-left: 20px;
 }
 
 .footersns p {
     display: flex;
     white-space: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     color: white;
     letter-spacing: 1px;
     font-size: 13px;
@@ -88,7 +90,7 @@ footer {
 
 .footersnsicon {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .footersnsicon img {
@@ -110,9 +112,14 @@ footer {
     .info ul {
         width: auto;
     }
+
     #footernavmenu {
         padding: 0 15px;
-        /* text-align: center; */
+    }
+
+    #footernavmenu li {
+        text-align: center;
+        float: none;
     }
 
     #footernavmenu li::after {
@@ -132,4 +139,8 @@ footer {
         color: #506178;
     }
 
+    .footersns {
+        flex: 1;
+        border-left: none;
+    }
 }
